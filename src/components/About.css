@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Open+Sans:wght@500&display=swap");
+
+.about {
+  background: #242424;
+  height: 750px;
+}
+.header {
+  margin-top: 65px;
+  margin-left: 120px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 62px;
+}
+.a_matter {
+  display: flex;
+}
+.a_content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+  width: 453px;
+  height: 377px;
+  margin-left: 238px;
+  margin-top: 100px;
+}
+.a_highlight {
+  /* width: 453px; */
+  color: #edb86f;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.a_sub_highlight {
+  width: 453px;
+  color: #fff;
+  font-family: "Lora";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.a_context {
+  width: 378px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.a_button {
+  border: 1px solid #fff;
+  display: flex;
+  width: 347px;
+  height: 49px;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  background-color: #242424;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.lawfirm {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-left: 59px;
+  margin-top: 58px;
+}
+.meetingbackground {
+  width: 362px;
+  height: 506px;
+  left: 31px;
+  top: 0px;
+  position: absolute;
+  background: #edb96f;
+}
+.meetingphoto {
+  width: 362px;
+  height: 506px;
+  left: 0px;
+  top: 25px;
+  position: absolute;
+}
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
+  .a_matter {
+    display: block;
+  }
+  .a_content {
+    margin-left: 20px;
+    margin-top: 45px;
+    gap: 10px;
+    width: 320px;
+    height: 277px;
+  }
+  .a_sub_highlight {
+    font-size: 26px;
+  }
+  .a_context {
+    width: 280px;
+    height: 80px;
+    font-size: 10px;
+  }
+  .a_button {
+    width: 280px;
+    font-size: 12px;
+  }
+  .lawfirm{
+    margin-left: auto;
+    margin-top: auto;
+  }
+  .meetingbackground {
+    width: 251.099px;
+    height: 363.079px;
+  }
+  .meetingphoto {
+    width: 251.099px;
+    height: 363.079px;
+  }
+}
